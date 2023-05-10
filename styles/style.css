@@ -3,6 +3,121 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar__ul{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.navbar__link{
+    color: rgba(0,0,0,.87);
+}
+.navbar__link-img-productos{
+    fill: #5f6368;
+}
+.navbar__link-img-perfil{
+    border-radius: 50%;
+}
+.link__underline:hover{
+    text-decoration: underline;
+}
+.products__icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+}
+.products__icon:hover{
+    border-radius: 50%;
+    background-color: rgba(60,64,67,.08);
+}
+.products__icon-perfil{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+}
+.products__icon-perfil:hover{
+    border-radius: 50%;
+    background-color: rgba(60,64,67,.08);
+}
+.main{
+    margin-top: 100px;
+    text-align: center;
+}
+.main__logo,
+.main__input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.main__input-container{
+    width: 525px;
+    border-radius: 30px;
+    border: 1px solid #e1e2e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+.main__input-container input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.search-icon{
+    width: 20px;
+    height: 18px;
+    line-height: 20px;
+}
+.icons-container{
+    display: flex;
+    justify-content: space-between;
+    width: 65px;
+}
+.main__buttons{
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main__buttons button{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.main__buttons button:hover{
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    color: #202124;
+}
 .footer{
     width: 100%;
     position: absolute;
